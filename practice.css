@@ -1,0 +1,194 @@
+ *{
+	 margin:0;
+	 padding:0;
+ }
+ body{
+	 background:#ddd;
+ }
+ .fix{
+	 overflow:hidden;
+ }
+ .container_full{
+	 width:100%;	 
+ }
+ .container{
+	 display:block;
+	 width:960px;
+	 margin:0 auto;
+	 border-left:1px solid gray;
+	 border-right:1px solid gray;
+	 
+ }
+ .header_bg{
+ min-height:40px;
+ padding-top:20px;
+ padding-bottom:30px;
+ }
+ .Blogin_left{
+	 float:left;
+     display:inline-block;		
+     margin-left:10px;
+     font-family:arial;
+	 
+ }
+ .nav_right{
+	 float:right;
+     color:white;	 
+ }
+ .nav_right ul li{
+	 background:gray;
+ }
+ .nav_right ul {
+	 list-style:none;
+ }
+ .nav_right ul li{
+	 float:left;
+	 border-right:1px solid green;
+ }
+ .nav_right ul li:hover{
+	 background:#ddd;
+	 transition:background .5s ease;
+ }
+ .nav_right ul li:first-child{
+	 border-left:1px solid green;
+	 border-radius:10px 0px 0px 10px;
+ }
+  .nav_right ul li:last-child{
+	 border-radius:0px 10px 10px 0px;
+ }
+ .nav_right ul li a{
+	 text-decoration:none;
+	 display:block;
+	 padding:10px 20px;
+ } 
+ .myself{
+	 padding:15px;
+	 font-size:20px;
+	 text-align:justify;
+ }
+ .container_first{
+	 float:left;
+	 width:200px;
+	 text-align:center;
+	 margin-left: 36px;
+    margin-top: 12px;
+ }
+ .wrapper2{
+	margin:60px 0;
+ }
+.wrapper2 .left_div{
+	    float: left;
+    width: 412px;
+    margin-left: 45px;
+}
+.wrapper2 .left_div .first{
+	background:url(images/about_icon.png) no-repeat;
+	padding-left:42px;
+
+}
+.wrapper2 .left_div .second{
+	background:url(images/portfolio_icon.png) no-repeat;
+	padding-left:42px;
+}
+.wrapper2 .left_div p,ul{
+	margin-top:20px;
+}
+.third img{
+	border:5px solid white;
+	margin-left:10px;
+}
+.agofooter{
+	background-color:gray;
+	width:100%;
+	overflow:hidden;
+	padding:40px 0;
+	text-align:justify;
+}
+.foot1{
+	    float: left;
+    width: 256px;
+    margin-left: 32px;
+    background: gray;
+}
+.foot2{
+	float:left;
+	width:250px;
+	margin-left:80px;
+	background:gray;
+}
+.foot3{
+	     float: left;
+    width: 255px;
+    margin-left: 40px;
+    margin-right: 46px;
+    background: gray;
+}
+
+.agofooter .foot1 .h1{
+	   background:url(images/footer_h2_bg.png) no-repeat;
+	padding-left:45px;
+}
+.agofooter .foot2 .h2{
+	background:url(images/footer_h2_bg1.png) no-repeat;
+	background-position:left center;
+	padding-left:45px;
+	
+}
+.agofooter .foot3 .h3{
+	background:url(images/footer_h2_bg2.png) no-repeat;
+	background-position:left center;
+	padding-left:45px;
+	
+}
+.tw_im_btm{
+	margin-left:40px;
+}
+
+
+.agofooter .foot .h3{
+    background:url(images/footer_h2_bg2.png) no-repeat;
+	padding-left:65px;
+}
+.agofooter .foot1 ul li a {
+	text-decoration:none;
+	margin-top:10px;
+}
+.agofooter .foot2 ul li a {
+	text-decoration:none;
+	margin-top:10px;
+}
+.twiter{
+	margin-top:20px;
+}
+.agofooter .foot1 ul li{
+	background:url(images/footer_tick_mark.png) no-repeat;
+	padding-left:30px;
+		margin-top:10px;
+		list-style:none;
+}
+.agofooter .foot2 ul li{
+	background:url(images/footer_tick_mark.png) no-repeat;
+	padding-left:30px;
+		margin-top:10px;
+		list-style:none;
+}
+.twitter{
+		background:url(images/twitter_background.png) no-repeat;
+         position:center center;
+		 padding: 0 20px;
+}
+.tw_im_btm{
+	margin-left:200px;
+	margin-top:30px;
+}
+.footerlast{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+
+
+
+
+ 
